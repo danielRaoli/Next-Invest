@@ -8,9 +8,22 @@
     line-height: 24px;
     text-decoration: none;
     background-color: #7B61FF;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .main-button.-second{
     color:#7B61FF;
     background-color: white;
+}
+
+.main-button.-terciary{
+    border: 1px solid #336EE1; 
+    background-color: white;
+    color:  #336EE1;
+}
+
+.main-button.-terciary-invert{
+    background-color: #336EE1;
+    color: white;
 }

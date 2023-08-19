@@ -11,3 +11,7 @@ h1,h2,h3,a,p,label {
     line-height: 32px;
 }
 
+body{
+    overflow-x:hidden;
+}
+
