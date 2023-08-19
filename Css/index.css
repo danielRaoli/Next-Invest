@@ -1,0 +1,13 @@
+h1,h2,h3,a,p,label {
+    font-family:'Josefin Sans';
+}
+
+.description{
+    color: Grey;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+

@@ -1,0 +1,31 @@
+.main-header .nav{
+    height: 90px; 
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #5CB7CA;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+
+.main-header .menu{
+  display: flex;  
+  align-items: center;
+  gap: 1rem;
+}
+.main-header .menu .action{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.main-header .menu .select{
+    color: white;
+    background-color:#5CB7CA ;
+    border: none;
+    cursor: pointer;
+    }

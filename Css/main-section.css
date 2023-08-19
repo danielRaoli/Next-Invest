@@ -1,0 +1,56 @@
+.main-section{
+    background: url(../Assets/images/Img.png);
+    width: 100vw;
+    height: 870px;
+    align-items: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 0 375px;
+    display: flex;
+}
+
+.main-section .title{
+    color: white;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    max-width: 770px;
+    position: relative;
+}
+
+.main-section .description{
+    color: white;
+    max-width: 470px;
+    position: relative;
+}
+.main-section .main-button{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+
+
+
+.main-section .container{
+    max-width: 770px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px; 
+}
+
+.main-section .container::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: rgba(51, 109, 225, 0.684);
+    border-radius: 50%;
+
+    width: 558px;
+    height: 558px;
+    flex-shrink: 0; 
+    left: 13%;
+    top: 30%;
+}
