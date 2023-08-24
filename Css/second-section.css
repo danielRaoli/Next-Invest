@@ -6,7 +6,7 @@
 
 .second-section .main-title{
     color: var(--grey-1, #333);
-    text-align: center;
+    text-align: start;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -27,4 +27,22 @@
     background-color: #ECECEC;
     align-items: center;
 }
+
+.second-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 570px;
+    align-items: flex-start;
+    
+}
+
+.second-section .container .main-description{
+ text-align: justify;
+}
+
+.second-section .img{
+    width: 450px;
+}
+
 
